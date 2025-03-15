@@ -1,9 +1,10 @@
 # API-comFetch-em-React-Native
-Este projeto é uma API simples desenvolvida com Node.js e o framework Express. 
-O projeto foi iniciado com o comando npm init, que gerou o arquivo package.json com as configurações padrão do projeto. A dependência principal instalada é o Express, um framework minimalista e flexível para a construção de aplicações web e APIs em Node.js.
+Este projeto é uma API construído com Node.js e Express. Ele também utiliza o Fetch para fazer requisições HTTP.
 
-No arquivo index.js, foi configurado um servidor básico utilizando o Express. O servidor responde a requisições GET na rota raiz (/), retornando a mensagem "API funcionando!" para confirmar que a aplicação está ativa. O servidor está configurado para rodar localmente na porta 3000, podendo ser acessado em http://localhost:3000.
+A configuração inicial foi feita com o comando npm init, que gerou automaticamente o arquivo package.json, contendo as dependências do projeto. A principal dependência instalada é o Express, que facilita a criação de servidores e APIs. Além disso, o projeto faz uso do Fetch para realizar requisições HTTP de forma assíncrona.
 
-Para executar a API, basta rodar o comando node index.js no terminal. Isso irá iniciar o servidor, que ficará aguardando as requisições. É possível testar a API acessando o endereço no navegador.
+No arquivo index.js, um servidor básico foi configurado usando o Express. O servidor responde a requisições GET na rota raiz (/), retornando a mensagem "API funcionando!" como confirmação de que está ativo. A aplicação roda localmente na porta 3000 e pode ser acessada em http://localhost:3000.
 
-Este repositório serve como uma base simples e flexível para quem deseja começar a desenvolver APIs com Node.js e Express, e pode ser facilmente expandido para incluir mais funcionalidades, como rotas, autenticação e integração com bancos de dados, conforme as necessidades do projeto.
+Para rodar a API, basta executar o comando node index.js no terminal. Isso iniciará o servidor, que ficará aguardando as requisições. Você pode testar a API acessando o endereço no navegador ou utilizando ferramentas como Postman, curl ou o Fetch diretamente no código JavaScript.
+
+Este repositório oferece uma estrutura inicial para quem deseja começar a desenvolver APIs com Node.js, Express e Fetch, sendo fácil de expandir com novas funcionalidades, como novas rotas, autenticação e integração com bancos de dados, conforme a necessidade do projeto.
