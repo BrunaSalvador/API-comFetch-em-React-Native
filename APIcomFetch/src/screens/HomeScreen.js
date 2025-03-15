@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10, 
   },
   list: {
-    justifyContent: 'space-between', // Distribui os cards uniformemente
+    justifyContent: 'space-between', 
   },
   loading: {
     flex: 1,
